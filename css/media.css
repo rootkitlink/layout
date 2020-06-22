@@ -1,0 +1,253 @@
+@media (max-width: 1130px){
+  .offers__info-item{
+    max-width: 300px;
+  }
+  .consult__inner{
+    background-image: none;
+  }
+  .news__content-inner{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .news__blog{
+    margin: 0 10px;
+  }
+  .news__slider{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .news__slider-author{
+    margin-bottom: 15px;
+  }
+  .news__slider .prev-btn{
+    bottom: 8px;
+    left: 250px;
+  }
+  .news__slider .next-btn{
+    bottom: 8px;
+    right: 8px;
+    left: 306px;
+  }
+  .footer__top-info{
+    margin-right: 20px;
+  }
+}
+@media (max-width: 1024px){
+  .footer__top-inner{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .footer__info-text{
+    padding-right: 50px;
+  }
+}
+@media (max-width: 950px){
+  .offers__info{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .offers__info-item{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .offers__top-text,
+  .consult__top-text,
+  .news__top-text{
+    max-width: 300px;
+  }
+  .consult__form{
+    flex-wrap: wrap;
+  }
+  .consult__form{
+    justify-content: center;
+  }
+  .consult__backform-left{
+    margin-right: 20px;
+  }
+  .consult__backform-right{
+    padding-top: 10px;
+    max-width: 264px;
+  }
+  .consult__btn{
+    float: none;
+    margin-top: 27px;
+  }
+}
+@media (max-width: 768px){
+  .slick-prev,
+  .slick-next{
+    top: 10%;
+  }
+  .offers__top{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .offers__top-about,
+  .consult__top-about,
+  .news__top-about{
+    margin: 0 auto;
+  }
+  .offers__all{
+    margin: 0 auto;
+  }
+  .offers__top-title::before,
+  .consult__top-title::before,
+  .news__top-title::before{
+    width: 50px;
+    left: -40px;
+  }
+  .offers__all a,
+  .news__all a{
+    margin: 20px 0 0 0;
+  }
+  .advantages__item{
+    margin: 0 10px;
+  }
+  .news__top{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 700px){
+  .header__contacts{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .header__email,
+  .header__phone{
+    margin: 0 auto;
+  }
+  .header__btn{
+    float: none;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 5px 20px 4px;
+  }
+  .header__btn::before{
+    display: none;
+  }
+  .menu a{
+    padding: 0 5px;
+  }
+  .advantages__inner{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .advantages__item{
+    margin-bottom: 40px;
+  }
+  .news__blog{
+    margin-bottom: 30px;
+  }
+  .footer__top-map iframe{
+    max-width: 500px;
+  }
+}
+@media (max-width: 600px){
+  .menu__burger{
+    display: block;
+    font-size: 30px;
+  }
+  .menu ul{
+    display: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 50;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .menu li{
+    display: block;
+  }
+  .menu li+li {
+    padding-left: 0;
+    border-top: 1px solid #cbcacb;
+  }
+  .menu a{
+    display: block;
+    background-color: #ffc222;
+  }
+  .consult__top{
+    margin-right: 65px;
+  }
+  .consult__backform-right{
+    margin-right: 20px;
+  }
+  .consult__btn{
+    left: 10px;
+  }
+  .news{
+    padding-bottom: 35px;
+  }
+  .footer__top-info{
+    padding-left: 50px;
+  }
+  .footer__top-map iframe {
+    max-width: 290px;
+  }
+}
+@media (max-width: 400px){
+  .header__contacts{
+    max-width: 310px;
+    margin: 0 auto;
+  }
+  .header__email,
+  .header__phone{
+    padding-right: 0;
+  }
+  .header__btn::before {
+    display: block;
+    left: 4%;
+  }
+  .offers__top-about,
+  .consult__top-about,
+  .news__top-about{
+    padding-left: 20px;
+    text-align: center;
+  }
+  .offers__top-title::before,
+  .consult__top-title::before,
+  .news__top-title::before {
+    display: none;
+  }
+  .offers__info-text{
+    padding-bottom: 90px;
+  }
+  .offers__info-actionmore{
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+   .news__slider-item {
+     padding: 65px 35px 45px 30px;
+   }
+  .news__slider .prev-btn {
+    bottom: 8px;
+    left: 90px;
+  }
+  .news__slider .next-btn {
+    bottom: 8px;
+    right: 8px;
+    left: 145px;
+  }
+  .footer__btn{
+    font-size: 12px;
+    padding: 5px 15px 4px 40px;
+  }
+  .footer__btn::before{
+    left: 15px;
+  }
+  .footer__link{
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 600px){
+  .menu ul{
+    display: block !important;
+  }
+}
